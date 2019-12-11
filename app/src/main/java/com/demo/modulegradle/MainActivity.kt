@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         Log.e("Result", TestManager.getInstance(this)?.subtract(112, 20).toString() + "::")
     }
 }
